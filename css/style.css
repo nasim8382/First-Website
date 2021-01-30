@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+#header{
+    background-color: #000;
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{
+    color: #fff;
+    font-size: 40px;
+}
+
+.menu a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 16px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background: #fff;
+    color: #000;   
+}
+
+#banner{
+    background: url(../images/image_03.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.bnr_overlay{
+    padding: 300px 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#banner h1{
+    color: darkmagenta;
+    font-size: 50px;
+}
+
+#banner a{
+    margin-top: 50px;
+    display: inline-block;
+    color: darkgoldenrod;
+    font-size: 20px;
+    padding: 16px 26px;
+    border: 2px double green;
+    text-transform: capitalize;
+}
+
+#service{
+    padding: 80px 0;
+}
+
+.section_heading{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: brown
+}
+
+.ser_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ser_box{
+    flex-basis: 28%;
+    padding: 36px 26px;
+    background-color: powderblue;
+    text-align: center;
+    box-shadow: 10px 10px 10px #000;
+    margin-bottom: 30px;
+}
+
+.ser_box h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.ser_box p{
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.ser_box a{
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    padding: 16px 26px;
+    border: 1px solid #000;
+    text-transform: capitalize;
+}
+
+#contact{
+    padding: 80px 0;
+    background: url(../images/image_08.jpg);
+    background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact form{
+    display: grid;
+    justify-content: center;
+}
+
+#contact button,
+#contact textarea,
+#contact input{
+    display: block;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 600px;
+    padding-left: 30px;
+    background: transparent;
+    border: 1px solid aqua;
+    color: white;
+}
+
+#contact textarea::placeholder,
+#contact input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+#contact textarea{
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#contact button{
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    width: 635px;
+}
+
+
+
+
